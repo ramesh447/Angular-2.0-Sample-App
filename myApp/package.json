@@ -1,8 +1,8 @@
 {
-    "name": "product-management",
+    "name": "Shop Disney Parks",
     "version": "1.0.0",
-    "author": "Deborah Kurata",
-    "description": "Package for the Acme Product Management sample application",
+    "author": "Ramesh Mullapudi",
+    "description": "Package for the Shop Disney Parks sample application",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "tsc": "tsc",
