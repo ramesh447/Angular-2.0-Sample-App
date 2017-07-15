@@ -16,7 +16,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'sdp-app',
-        template: "\n         <h1>{{pageTitle}}</h1> \n         "
+        template: "\n         <h1>{{pageTitle}}</h1>\n         <sdp-products></sdp-products>\n         "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
