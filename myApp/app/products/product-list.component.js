@@ -75,6 +75,10 @@ var ProductListComponent = (function () {
         console.log('OnInit');
     };
     ;
+    ProductListComponent.prototype.onRatingClicked = function (message) {
+        this.pageTitle = 'Product List:' + message;
+    };
+    ;
     return ProductListComponent;
 }());
 ProductListComponent = __decorate([
